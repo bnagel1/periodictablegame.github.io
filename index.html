@@ -14,7 +14,7 @@
 <title>interactive_table_html5_r03</title>
 <!-- write your code here -->
 <style>
-  #animation_container, #_preload_div_ {
+  #animation_container {
 	position:absolute;
 	margin:auto;
 	left:0;right:0;
@@ -28,34 +28,34 @@ var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
 		{name:"interactive_table_html5_r03_atlas_", frames: [[0,1212,1168,656],[0,0,1089,1210]]},
-		{name:"interactive_table_html5_r03_atlas_2", frames: [[0,658,1168,656],[0,1316,1168,656],[0,0,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_2", frames: [[0,1316,1168,656],[0,658,1168,656],[0,0,1168,656]]},
 		{name:"interactive_table_html5_r03_atlas_3", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_4", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_5", frames: [[0,658,1168,656],[0,0,1168,656],[0,1316,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_6", frames: [[0,1316,1168,656],[0,0,1168,656],[0,658,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_7", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_8", frames: [[0,1316,1168,656],[0,658,1168,656],[0,0,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_9", frames: [[0,1316,1168,656],[0,0,1168,656],[0,658,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_4", frames: [[0,1316,1168,656],[0,0,1168,656],[0,658,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_5", frames: [[0,0,1168,656],[0,1316,1168,656],[0,658,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_6", frames: [[0,658,1168,656],[0,0,1168,656],[0,1316,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_7", frames: [[0,658,1168,656],[0,0,1168,656],[0,1316,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_8", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_9", frames: [[0,658,1168,656],[0,0,1168,656],[0,1316,1168,656]]},
 		{name:"interactive_table_html5_r03_atlas_10", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_11", frames: [[0,1316,1168,656],[0,0,1168,656],[0,658,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_11", frames: [[0,658,1168,656],[0,1316,1168,656],[0,0,1168,656]]},
 		{name:"interactive_table_html5_r03_atlas_12", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
 		{name:"interactive_table_html5_r03_atlas_13", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
 		{name:"interactive_table_html5_r03_atlas_14", frames: [[0,1316,1168,656],[0,0,1168,656],[0,658,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_15", frames: [[0,1316,1168,656],[0,0,1168,656],[0,658,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_16", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_17", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_15", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_16", frames: [[0,658,1168,656],[0,1316,1168,656],[0,0,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_17", frames: [[0,1316,1168,656],[0,0,1168,656],[0,658,1168,656]]},
 		{name:"interactive_table_html5_r03_atlas_18", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_19", frames: [[0,0,1168,656],[0,1316,1168,656],[0,658,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_20", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_21", frames: [[0,658,1168,656],[0,1316,1168,656],[0,0,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_22", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_23", frames: [[0,658,1168,656],[0,1316,1168,656],[0,0,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_19", frames: [[0,1316,1168,656],[0,0,1168,656],[0,658,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_20", frames: [[0,0,1168,656],[0,1316,1168,656],[0,658,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_21", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_22", frames: [[0,0,1168,656],[0,1316,1168,656],[0,658,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_23", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
 		{name:"interactive_table_html5_r03_atlas_24", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
 		{name:"interactive_table_html5_r03_atlas_25", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
 		{name:"interactive_table_html5_r03_atlas_26", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_27", frames: [[0,1316,1168,656],[0,0,1168,656],[0,658,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_28", frames: [[0,0,1168,656],[0,658,1168,656],[1170,482,640,480],[1170,964,640,480],[1170,0,640,480],[1170,1446,640,480],[0,1316,1168,656]]},
-		{name:"interactive_table_html5_r03_atlas_29", frames: [[440,482,438,481],[880,482,438,481],[1320,482,438,481],[0,965,438,481],[0,482,438,481],[1284,0,640,480],[642,0,640,480],[0,0,640,480],[1518,1431,288,58],[1078,1603,200,47],[1344,1600,200,47],[606,1615,200,47],[1546,1600,200,47],[0,1615,200,47],[1528,1131,288,58],[202,1615,200,47],[1344,1551,200,47],[1392,1022,466,47],[808,1664,200,47],[1414,1698,200,47],[1616,1698,200,47],[1518,1311,288,58],[1482,1649,200,47],[1684,1649,200,47],[808,1615,200,47],[202,1664,200,47],[1010,1652,200,47],[1528,1191,288,58],[1212,1698,200,47],[1280,1649,200,47],[606,1664,200,47],[0,1664,200,47],[404,1664,200,47],[1760,702,288,58],[1808,1300,222,47],[1078,1495,264,52],[1808,1349,222,47],[1808,1251,222,47],[1078,1549,264,52],[1808,1398,222,47],[1760,762,288,58],[1760,482,186,108],[1518,1491,252,58],[0,1555,1076,58],[1860,1002,186,58],[1760,882,288,58],[440,1255,1076,58],[1818,1131,190,58],[440,1315,1076,58],[1818,1191,182,58],[440,1375,1076,58],[2012,470,20,58],[1772,1491,242,58],[440,1435,1076,58],[1811,942,226,58],[1518,1371,288,58],[440,1195,1076,58],[0,1495,1076,58],[1010,1701,145,58],[440,1135,1086,58],[1392,965,417,55],[1886,1649,145,58],[2012,530,20,58],[440,965,950,168],[2005,0,43,66],[1518,1251,288,58],[1926,144,70,70],[1999,71,42,64],[1999,137,42,64],[1998,203,42,64],[1990,404,42,64],[1950,1551,42,64],[1392,1071,288,58],[1994,1551,42,64],[1157,1701,42,64],[1941,1709,42,64],[1926,0,77,69],[1926,71,71,71],[1990,352,56,50],[1760,822,288,58],[1926,352,62,62],[1991,287,57,51],[1926,287,63,63],[1926,416,62,55],[1948,644,62,55],[1948,587,62,55],[1948,530,62,55],[1682,1071,288,58],[1948,473,62,55],[1972,1062,62,55],[1926,216,69,69],[1818,1709,121,47],[0,1713,121,47],[1760,592,186,108],[492,1713,121,47],[1344,1495,121,47],[123,1713,121,47],[246,1713,121,47],[369,1713,121,47],[615,1713,121,47],[404,1615,200,47],[1546,1551,200,47],[1748,1551,200,47],[1748,1600,200,47]]}
+		{name:"interactive_table_html5_r03_atlas_27", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656]]},
+		{name:"interactive_table_html5_r03_atlas_28", frames: [[0,0,1168,656],[0,658,1168,656],[0,1316,1168,656],[1170,0,640,480],[1170,482,640,480],[1170,964,640,480],[1170,1446,640,480]]},
+		{name:"interactive_table_html5_r03_atlas_29", frames: [[1320,482,438,481],[880,482,438,481],[0,482,438,481],[0,965,438,481],[440,482,438,481],[0,0,640,480],[642,0,640,480],[1284,0,640,480],[1078,1495,288,58],[606,1615,200,47],[0,1615,200,47],[1010,1658,200,47],[202,1615,200,47],[808,1615,200,47],[1518,1244,288,58],[1610,1653,200,47],[1610,1604,200,47],[1528,1135,466,47],[1010,1707,200,47],[0,1713,200,47],[202,1713,200,47],[1518,1424,288,58],[202,1664,200,47],[404,1664,200,47],[1212,1658,200,47],[1414,1702,200,47],[606,1664,200,47],[1518,1304,288,58],[1212,1707,200,47],[0,1664,200,47],[1818,1702,200,47],[808,1664,200,47],[1616,1702,200,47],[1760,702,288,58],[1805,1082,222,47],[1078,1555,264,52],[1808,1424,222,47],[1581,1082,222,47],[1344,1604,264,52],[1808,1473,222,47],[1760,762,288,58],[440,965,1139,168],[1368,1544,252,58],[1808,1304,186,58],[1808,1244,190,58],[1760,482,186,108],[1808,1364,182,58],[1622,1544,242,58],[1818,1184,226,58],[1871,1022,145,58],[1866,1522,145,58],[0,1555,1076,58],[1760,882,288,58],[440,1255,1076,58],[440,1315,1076,58],[440,1375,1076,58],[2012,470,20,58],[440,1435,1076,58],[1518,1484,288,58],[440,1195,1076,58],[0,1495,1076,58],[440,1135,1086,58],[1581,965,417,55],[2012,530,20,58],[2005,0,43,66],[1518,1364,288,58],[1926,144,70,70],[1999,71,42,64],[1999,137,42,64],[1998,203,42,64],[1990,404,42,64],[2000,942,42,64],[1581,1022,288,58],[2000,1244,42,64],[1996,1310,42,64],[960,1713,42,64],[1926,0,77,69],[1926,71,71,71],[1990,352,56,50],[1760,822,288,58],[1926,352,62,62],[1991,287,57,51],[1926,287,63,63],[1926,416,62,55],[1948,644,62,55],[1948,587,62,55],[1948,530,62,55],[1528,1184,288,58],[1948,473,62,55],[896,1713,62,55],[1926,216,69,69],[404,1713,121,47],[527,1713,121,47],[1760,592,186,108],[1537,1751,121,47],[1368,1495,121,47],[650,1713,121,47],[773,1713,121,47],[1414,1751,121,47],[1660,1751,121,47],[1812,1653,200,47],[1812,1604,200,47],[1078,1609,200,47],[404,1615,200,47]]}
 ];
 // symbols:
 (lib._12Carbon = function() {
@@ -79,59 +79,59 @@ lib.ssMetadata = [
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0030 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_25"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0031 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_2"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["interactive_table_html5_r03_atlas_25"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0032 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_2"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0033 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_2"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_25"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
-(lib.animTable0034 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_3"]);
+(lib.animTable0033 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_26"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
-(lib.animTable0035 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_3"]);
+(lib.animTable0034 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_26"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
+(lib.animTable0035 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_27"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
 (lib.animTable0036 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_3"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_26"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0037 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_4"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0038 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_4"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_27"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
-(lib.animTable0039 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_12"]);
+(lib.animTable0038 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_28"]);
 	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0039 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_27"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0040 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_9"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["interactive_table_html5_r03_atlas_28"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0041 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_11"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["interactive_table_html5_r03_atlas_28"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0042 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_12"]);
-	this.gotoAndStop(1);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0043 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_9"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_12"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0044 = function() {
@@ -139,301 +139,297 @@ lib.ssMetadata = [
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0045 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_9"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["interactive_table_html5_r03_atlas_11"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0046 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_10"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0047 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_10"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0048 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_8"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0049 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_10"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0050 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_11"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0051 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_8"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0052 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_13"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
-(lib.animTable0053 = function() {
+(lib.animTable0047 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_11"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0048 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_16"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0049 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_14"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0050 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_17"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0051 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_16"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0052 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_21"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0053 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_13"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0054 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_15"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0055 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_17"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0056 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_18"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
-(lib.animTable0056 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_13"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
 (lib.animTable0057 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_15"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["interactive_table_html5_r03_atlas_17"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0058 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_16"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["interactive_table_html5_r03_atlas_13"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0059 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_16"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_18"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0060 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_14"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["interactive_table_html5_r03_atlas_18"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0061 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_17"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_19"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0062 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_16"]);
-	this.gotoAndStop(2);
+	this.initialize(ss["interactive_table_html5_r03_atlas_15"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0063 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_17"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_19"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0064 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_17"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_16"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0065 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_13"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0066 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_14"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0067 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_15"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
-(lib.animTable0068 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_14"]);
+(lib.animTable0066 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_19"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
-(lib.animTable0069 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_23"]);
+(lib.animTable0067 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_20"]);
 	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0068 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_20"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0069 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_21"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0070 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_20"]);
-	this.gotoAndStop(0);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0071 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_23"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_14"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0072 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_21"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["interactive_table_html5_r03_atlas_14"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0073 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_19"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["interactive_table_html5_r03_atlas_21"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0074 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_26"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_22"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0075 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_19"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_22"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0076 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_24"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["interactive_table_html5_r03_atlas_22"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0077 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_28"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_23"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0078 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_20"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["interactive_table_html5_r03_atlas_24"]);
+	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0079 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_22"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["interactive_table_html5_r03_atlas_24"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0080 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_18"]);
-	this.gotoAndStop(1);
+	this.initialize(ss["interactive_table_html5_r03_atlas_24"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0081 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_25"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["interactive_table_html5_r03_atlas_23"]);
+	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0082 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_22"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0083 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_27"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0084 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_24"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0085 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_18"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0086 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_19"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0087 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_26"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0088 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_24"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0089 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_27"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0090 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_25"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0091 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_25"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0092 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_26"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0093 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_21"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0094 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_22"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0095 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_27"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0096 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_28"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0097 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_23"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
-(lib.animTable0098 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_21"]);
+(lib.animTable0083 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_5"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0084 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_3"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0085 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_5"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0086 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_5"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
+(lib.animTable0087 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_6"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0088 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_10"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0089 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_8"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0090 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_2"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0091 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_7"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0092 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_9"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0093 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_3"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0094 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_6"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0095 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_9"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0096 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_8"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0097 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_4"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0098 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_7"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
 (lib.animTable0099 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_20"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_6"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0100 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_5"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0101 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_8"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_7"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
+(lib.animTable0101 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_2"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
 (lib.animTable0102 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_6"]);
-	this.gotoAndStop(0);
+	this.initialize(ss["interactive_table_html5_r03_atlas_3"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0103 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_6"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_4"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0104 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_5"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0105 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_7"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-(lib.animTable0106 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_6"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_8"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
-(lib.animTable0107 = function() {
+(lib.animTable0105 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_4"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
+(lib.animTable0106 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_9"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+(lib.animTable0107 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
 (lib.animTable0108 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_7"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_10"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0109 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_7"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_10"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.animTable0110 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_5"]);
+	this.initialize(ss["interactive_table_html5_r03_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.AtomBase01 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_28"]);
-	this.gotoAndStop(2);
+	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 (lib.AtomBase02pngcopy = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 (lib.AtomBase03 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-(lib.AtomBase04 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_28"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-(lib.AtomBase05 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_28"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
-(lib.AtomBase06pngcopy = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-(lib.AtomBase07 = function() {
+(lib.AtomBase04 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_28"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_1 = function() {
-	this.initialize(img.CachedTexturedBitmap_1);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2338,1332);
+(lib.AtomBase05 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+(lib.AtomBase06pngcopy = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_28"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+(lib.AtomBase07 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
 (lib.CachedTexturedBitmap_10 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(8);
@@ -566,99 +562,111 @@ p.nominalBounds = new cjs.Rectangle(0,0,2338,1332);
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(40);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_16 = function() {
+(lib.CachedTexturedBitmap_152 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(41);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_17 = function() {
+(lib.CachedTexturedBitmap_154 = function() {
+	this.initialize(img.CachedTexturedBitmap_154);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2336,1312);
+(lib.CachedTexturedBitmap_155 = function() {
+	this.initialize(img.CachedTexturedBitmap_155);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2338,1332);
+(lib.CachedTexturedBitmap_156 = function() {
+	this.initialize(img.CachedTexturedBitmap_156);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,2338,1314);
+(lib.CachedTexturedBitmap_157 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(42);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_18 = function() {
+(lib.CachedTexturedBitmap_158 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(43);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_19 = function() {
+(lib.CachedTexturedBitmap_159 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(44);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_2 = function() {
+(lib.CachedTexturedBitmap_16 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(45);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_20 = function() {
+(lib.CachedTexturedBitmap_160 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(46);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_21 = function() {
+(lib.CachedTexturedBitmap_161 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(47);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_22 = function() {
+(lib.CachedTexturedBitmap_162 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(48);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_23 = function() {
+(lib.CachedTexturedBitmap_163 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(49);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_24 = function() {
+(lib.CachedTexturedBitmap_164 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(50);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_26 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(51);
-}).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_27 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(52);
-}).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_28 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(53);
-}).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_29 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(54);
-}).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_3 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(55);
-}).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_30 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(56);
-}).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_31 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(57);
-}).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_32 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(58);
-}).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_33 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(59);
-}).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_34 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(60);
-}).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_35 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(61);
-}).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_36 = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
-	this.gotoAndStop(62);
-}).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_37 = function() {
+(lib.CachedTexturedBitmap_165 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_38 = function() {
+(lib.CachedTexturedBitmap_18 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(51);
+}).prototype = p = new cjs.Sprite();
+(lib.CachedTexturedBitmap_2 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(52);
+}).prototype = p = new cjs.Sprite();
+(lib.CachedTexturedBitmap_20 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(53);
+}).prototype = p = new cjs.Sprite();
+(lib.CachedTexturedBitmap_22 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(54);
+}).prototype = p = new cjs.Sprite();
+(lib.CachedTexturedBitmap_24 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(55);
+}).prototype = p = new cjs.Sprite();
+(lib.CachedTexturedBitmap_26 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(56);
+}).prototype = p = new cjs.Sprite();
+(lib.CachedTexturedBitmap_28 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(57);
+}).prototype = p = new cjs.Sprite();
+(lib.CachedTexturedBitmap_3 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(58);
+}).prototype = p = new cjs.Sprite();
+(lib.CachedTexturedBitmap_30 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(59);
+}).prototype = p = new cjs.Sprite();
+(lib.CachedTexturedBitmap_31 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(60);
+}).prototype = p = new cjs.Sprite();
+(lib.CachedTexturedBitmap_33 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(61);
+}).prototype = p = new cjs.Sprite();
+(lib.CachedTexturedBitmap_34 = function() {
+	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
+	this.gotoAndStop(62);
+}).prototype = p = new cjs.Sprite();
+(lib.CachedTexturedBitmap_36 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(63);
 }).prototype = p = new cjs.Sprite();
@@ -802,10 +810,6 @@ p.nominalBounds = new cjs.Rectangle(0,0,2338,1332);
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(98);
 }).prototype = p = new cjs.Sprite();
-(lib.CachedTexturedBitmap_9 = function() {
-	this.initialize(img.CachedTexturedBitmap_9);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,2338,1314);
 (lib.CachedTexturedBitmap_90 = function() {
 	this.initialize(ss["interactive_table_html5_r03_atlas_29"]);
 	this.gotoAndStop(99);
@@ -827,8 +831,8 @@ p.nominalBounds = new cjs.Rectangle(0,0,2338,1314);
 	this.gotoAndStop(103);
 }).prototype = p = new cjs.Sprite();
 (lib.medbkgBKG2green = function() {
-	this.initialize(ss["interactive_table_html5_r03_atlas_28"]);
-	this.gotoAndStop(6);
+	this.initialize(ss["interactive_table_html5_r03_atlas_11"]);
+	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 (lib.Group312 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
@@ -1302,7 +1306,7 @@ p.nominalBounds = new cjs.Rectangle(-51.8,-17.6,43.099999999999994,43.3);
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 // stage content:
-(lib.RECOVER_RECOVER_RECOVER_interactive_table_html5_r08 = function(mode,startPosition,loop) {
+(lib.interactive_table_html5_r10 = function(mode,startPosition,loop) {
 	this.initialize(mode,startPosition,loop,{});
 	// timeline functions:
 	this.frame_0 = function() {
@@ -1337,12 +1341,12 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 		this.myBUT5.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_13.bind(this));
 		function fl_ClickToGoToAndPlayFromFrame_13()
 		{
-			this.gotoAndPlay(51);
+			this.gotoAndPlay(71);
 		}
 		this.myBUT6.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_14.bind(this));
 		function fl_ClickToGoToAndPlayFromFrame_14()
 		{
-			this.gotoAndPlay(61);
+			this.gotoAndPlay(81);
 		}
 		this.myBUT7.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_15.bind(this));
 		function fl_ClickToGoToAndPlayFromFrame_15()
@@ -1352,12 +1356,12 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 		this.myBUT8.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_16.bind(this));
 		function fl_ClickToGoToAndPlayFromFrame_16()
 		{
-			this.gotoAndPlay(81);
-		}
-		this.myBUT9.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_16.bind(this));
-		function fl_ClickToGoToAndPlayFromFrame_16()
-		{
 			this.gotoAndPlay(91);
+		}
+		this.myBUT9.addEventListener("click", fl_ClickToGoToAndPlayFromFrame_17.bind(this));
+		function fl_ClickToGoToAndPlayFromFrame_17()
+		{
+			this.gotoAndPlay(31);
 		}
 	}
 	this.frame_18 = function() {
@@ -1564,7 +1568,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 	this.instance_24.parent = this;
 	this.instance_24.setTransform(496.25,564.6,0.8148,0.7419,0,0,0,-27.8,0.1);
 	new cjs.ButtonHelper(this.instance_24, 0, 1, 2, false, new lib.buttonmPeriod01(), 3);
-	this.instance_25 = new lib.CachedTexturedBitmap_1();
+	this.instance_25 = new lib.CachedTexturedBitmap_155();
 	this.instance_25.parent = this;
 	this.instance_25.setTransform(-0.5,-0.5,0.5,0.5);
 	this.instance_26 = new lib.CachedTexturedBitmap_16();
@@ -1588,7 +1592,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 	this.instance_32 = new lib.CachedTexturedBitmap_10();
 	this.instance_32.parent = this;
 	this.instance_32.setTransform(38.5,516.3,0.5,0.5);
-	this.instance_33 = new lib.CachedTexturedBitmap_9();
+	this.instance_33 = new lib.CachedTexturedBitmap_156();
 	this.instance_33.parent = this;
 	this.instance_33.setTransform(-0.5,-0.5,0.5,0.5);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_25},{t:this.instance_24},{t:this.instance_23},{t:this.instance_22},{t:this.instance_21},{t:this.instance_20},{t:this.instance_19},{t:this.instance_18},{t:this.instance_17},{t:this.instance_16},{t:this.instance_15},{t:this.instance_14},{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.myBUT3},{t:this.myBUT1},{t:this.myBUT2},{t:this.myBUT4},{t:this.myBUT5},{t:this.myBUT6},{t:this.myBUT7},{t:this.myBUT8},{t:this.myBUT9},{t:this.instance_7},{t:this.instance_6},{t:this.instance_5},{t:this.instance_4},{t:this.instance_3},{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).to({state:[{t:this.instance_33},{t:this.instance_24},{t:this.instance_23},{t:this.instance_22},{t:this.instance_21},{t:this.instance_20},{t:this.instance_19},{t:this.instance_18},{t:this.instance_17},{t:this.instance_16},{t:this.instance_15},{t:this.instance_14},{t:this.instance_13},{t:this.instance_12},{t:this.instance_11},{t:this.instance_10},{t:this.instance_9},{t:this.instance_8},{t:this.myBUT3},{t:this.myBUT1},{t:this.myBUT2},{t:this.myBUT4},{t:this.myBUT5},{t:this.myBUT6},{t:this.myBUT7},{t:this.myBUT8},{t:this.myBUT9},{t:this.instance_7},{t:this.instance_32},{t:this.instance_31},{t:this.instance_30},{t:this.instance_29},{t:this.instance_28},{t:this.instance_27},{t:this.instance_26}]},19).wait(83));
@@ -1602,7 +1606,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 	this.instance_36 = new lib.CachedTexturedBitmap_18();
 	this.instance_36.parent = this;
 	this.instance_36.setTransform(36.5,122.05,0.5,0.5);
-	this.instance_37 = new lib.CachedTexturedBitmap_17();
+	this.instance_37 = new lib.CachedTexturedBitmap_157();
 	this.instance_37.parent = this;
 	this.instance_37.setTransform(41.7,99.05,0.5,0.5);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_37},{t:this.instance_36},{t:this.instance_35},{t:this.instance_34}]},91).wait(11));
@@ -1638,7 +1642,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 	this.instance_50 = new lib.CachedTexturedBitmap_20();
 	this.instance_50.parent = this;
 	this.instance_50.setTransform(38.5,122,0.5,0.5);
-	this.instance_51 = new lib.CachedTexturedBitmap_19();
+	this.instance_51 = new lib.CachedTexturedBitmap_158();
 	this.instance_51.parent = this;
 	this.instance_51.setTransform(41.7,98,0.5,0.5);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_51},{t:this.instance_50},{t:this.instance_49},{t:this.instance_48}]},81).to({state:[]},10).wait(11));
@@ -1674,7 +1678,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 	this.instance_64 = new lib.CachedTexturedBitmap_22();
 	this.instance_64.parent = this;
 	this.instance_64.setTransform(38.5,121.05,0.5,0.5);
-	this.instance_65 = new lib.CachedTexturedBitmap_21();
+	this.instance_65 = new lib.CachedTexturedBitmap_159();
 	this.instance_65.parent = this;
 	this.instance_65.setTransform(42.7,97.05,0.5,0.5);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_65},{t:this.instance_64},{t:this.instance_63},{t:this.instance_62}]},71).to({state:[]},10).wait(21));
@@ -1716,7 +1720,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 	this.instance_80 = new lib.CachedTexturedBitmap_24();
 	this.instance_80.parent = this;
 	this.instance_80.setTransform(36.05,120.95,0.5,0.5);
-	this.instance_81 = new lib.CachedTexturedBitmap_23();
+	this.instance_81 = new lib.CachedTexturedBitmap_160();
 	this.instance_81.parent = this;
 	this.instance_81.setTransform(41.25,96.95,0.5,0.5);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_81},{t:this.instance_80},{t:this.instance_79},{t:this.instance_78},{t:this.instance_77},{t:this.instance_76}]},60).to({state:[]},11).wait(31));
@@ -1754,7 +1758,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 	this.instance_95 = new lib.CachedTexturedBitmap_28();
 	this.instance_95.parent = this;
 	this.instance_95.setTransform(38.5,121.05,0.5,0.5);
-	this.instance_96 = new lib.CachedTexturedBitmap_27();
+	this.instance_96 = new lib.CachedTexturedBitmap_161();
 	this.instance_96.parent = this;
 	this.instance_96.setTransform(41.7,97.05,0.5,0.5);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_96},{t:this.instance_95},{t:this.instance_94},{t:this.instance_93}]},51).to({state:[]},9).wait(42));
@@ -1788,7 +1792,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 	this.instance_108 = new lib.CachedTexturedBitmap_30();
 	this.instance_108.parent = this;
 	this.instance_108.setTransform(38.5,121.05,0.5,0.5);
-	this.instance_109 = new lib.CachedTexturedBitmap_29();
+	this.instance_109 = new lib.CachedTexturedBitmap_162();
 	this.instance_109.parent = this;
 	this.instance_109.setTransform(42.7,98.05,0.5,0.5);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_109},{t:this.instance_108},{t:this.instance_107},{t:this.instance_106}]},41).to({state:[]},10).wait(51));
@@ -1824,7 +1828,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 	this.instance_122 = new lib._1_hydrogen();
 	this.instance_122.parent = this;
 	this.instance_122.setTransform(845,215,0.2922,0.2661);
-	this.instance_123 = new lib.CachedTexturedBitmap_32();
+	this.instance_123 = new lib.CachedTexturedBitmap_163();
 	this.instance_123.parent = this;
 	this.instance_123.setTransform(40.7,98.05,0.5,0.5);
 	this.instance_124 = new lib.CachedTexturedBitmap_31();
@@ -1865,7 +1869,7 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 	this.instance_138 = new lib.CachedTexturedBitmap_36();
 	this.instance_138.parent = this;
 	this.instance_138.setTransform(36.05,52.2,0.5,0.5);
-	this.instance_139 = new lib.CachedTexturedBitmap_35();
+	this.instance_139 = new lib.CachedTexturedBitmap_164();
 	this.instance_139.parent = this;
 	this.instance_139.setTransform(40.25,95.05,0.5,0.5);
 	this.instance_140 = new lib.CachedTexturedBitmap_34();
@@ -1901,17 +1905,22 @@ p.nominalBounds = new cjs.Rectangle(-51.7,-17.6,42.900000000000006,43.1);
 	this.instance_152.parent = this;
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_142}]}).to({state:[{t:this.instance_142}]},19).to({state:[{t:this.instance_143}]},1).to({state:[{t:this.instance_144}]},1).to({state:[{t:this.instance_145}]},1).to({state:[{t:this.instance_146}]},1).to({state:[{t:this.instance_147}]},1).to({state:[{t:this.instance_148}]},1).to({state:[{t:this.instance_149}]},1).to({state:[{t:this.instance_150}]},1).to({state:[{t:this.instance_151}]},1).to({state:[{t:this.instance_152}]},1).to({state:[]},1).to({state:[]},20).wait(52));
 	// Layer_7
-	this.instance_153 = new lib.CachedTexturedBitmap_38();
+	this.instance_153 = new lib.CachedTexturedBitmap_152();
 	this.instance_153.parent = this;
-	this.instance_153.setTransform(36.05,5.2,0.5,0.5);
-	this.instance_154 = new lib.CachedTexturedBitmap_37();
+	this.instance_153.setTransform(10.75,19.05,0.5,0.5);
+	this.instance_154 = new lib.CachedTexturedBitmap_165();
 	this.instance_154.parent = this;
 	this.instance_154.setTransform(581,29.05,0.5,0.5);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_154},{t:this.instance_153}]}).wait(102));
-	// backgroound
-	this.instance_155 = new lib.medbkgBKG2green();
+	// Layer_8
+	this.instance_155 = new lib.CachedTexturedBitmap_154();
 	this.instance_155.parent = this;
+	this.instance_155.setTransform(0,0,0.5,0.5);
 	this.timeline.addTween(cjs.Tween.get(this.instance_155).wait(102));
+	// backgroound
+	this.instance_156 = new lib.medbkgBKG2green();
+	this.instance_156.parent = this;
+	this.timeline.addTween(cjs.Tween.get(this.instance_156).wait(102));
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(583.5,327.5,665.5,398.5);
 // library properties:
@@ -1923,37 +1932,38 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedTexturedBitmap_1.png?1580759212686", id:"CachedTexturedBitmap_1"},
-		{src:"images/CachedTexturedBitmap_9.png?1580759212686", id:"CachedTexturedBitmap_9"},
-		{src:"images/interactive_table_html5_r03_atlas_.png?1580759212549", id:"interactive_table_html5_r03_atlas_"},
-		{src:"images/interactive_table_html5_r03_atlas_2.png?1580759212549", id:"interactive_table_html5_r03_atlas_2"},
-		{src:"images/interactive_table_html5_r03_atlas_3.png?1580759212549", id:"interactive_table_html5_r03_atlas_3"},
-		{src:"images/interactive_table_html5_r03_atlas_4.png?1580759212549", id:"interactive_table_html5_r03_atlas_4"},
-		{src:"images/interactive_table_html5_r03_atlas_5.png?1580759212549", id:"interactive_table_html5_r03_atlas_5"},
-		{src:"images/interactive_table_html5_r03_atlas_6.png?1580759212550", id:"interactive_table_html5_r03_atlas_6"},
-		{src:"images/interactive_table_html5_r03_atlas_7.png?1580759212550", id:"interactive_table_html5_r03_atlas_7"},
-		{src:"images/interactive_table_html5_r03_atlas_8.png?1580759212550", id:"interactive_table_html5_r03_atlas_8"},
-		{src:"images/interactive_table_html5_r03_atlas_9.png?1580759212550", id:"interactive_table_html5_r03_atlas_9"},
-		{src:"images/interactive_table_html5_r03_atlas_10.png?1580759212550", id:"interactive_table_html5_r03_atlas_10"},
-		{src:"images/interactive_table_html5_r03_atlas_11.png?1580759212551", id:"interactive_table_html5_r03_atlas_11"},
-		{src:"images/interactive_table_html5_r03_atlas_12.png?1580759212551", id:"interactive_table_html5_r03_atlas_12"},
-		{src:"images/interactive_table_html5_r03_atlas_13.png?1580759212551", id:"interactive_table_html5_r03_atlas_13"},
-		{src:"images/interactive_table_html5_r03_atlas_14.png?1580759212551", id:"interactive_table_html5_r03_atlas_14"},
-		{src:"images/interactive_table_html5_r03_atlas_15.png?1580759212551", id:"interactive_table_html5_r03_atlas_15"},
-		{src:"images/interactive_table_html5_r03_atlas_16.png?1580759212552", id:"interactive_table_html5_r03_atlas_16"},
-		{src:"images/interactive_table_html5_r03_atlas_17.png?1580759212552", id:"interactive_table_html5_r03_atlas_17"},
-		{src:"images/interactive_table_html5_r03_atlas_18.png?1580759212552", id:"interactive_table_html5_r03_atlas_18"},
-		{src:"images/interactive_table_html5_r03_atlas_19.png?1580759212552", id:"interactive_table_html5_r03_atlas_19"},
-		{src:"images/interactive_table_html5_r03_atlas_20.png?1580759212552", id:"interactive_table_html5_r03_atlas_20"},
-		{src:"images/interactive_table_html5_r03_atlas_21.png?1580759212553", id:"interactive_table_html5_r03_atlas_21"},
-		{src:"images/interactive_table_html5_r03_atlas_22.png?1580759212553", id:"interactive_table_html5_r03_atlas_22"},
-		{src:"images/interactive_table_html5_r03_atlas_23.png?1580759212553", id:"interactive_table_html5_r03_atlas_23"},
-		{src:"images/interactive_table_html5_r03_atlas_24.png?1580759212553", id:"interactive_table_html5_r03_atlas_24"},
-		{src:"images/interactive_table_html5_r03_atlas_25.png?1580759212553", id:"interactive_table_html5_r03_atlas_25"},
-		{src:"images/interactive_table_html5_r03_atlas_26.png?1580759212553", id:"interactive_table_html5_r03_atlas_26"},
-		{src:"images/interactive_table_html5_r03_atlas_27.png?1580759212554", id:"interactive_table_html5_r03_atlas_27"},
-		{src:"images/interactive_table_html5_r03_atlas_28.png?1580759212554", id:"interactive_table_html5_r03_atlas_28"},
-		{src:"images/interactive_table_html5_r03_atlas_29.png?1580759212557", id:"interactive_table_html5_r03_atlas_29"}
+		{src:"images/CachedTexturedBitmap_154.png", id:"CachedTexturedBitmap_154"},
+		{src:"images/CachedTexturedBitmap_155.png", id:"CachedTexturedBitmap_155"},
+		{src:"images/CachedTexturedBitmap_156.png", id:"CachedTexturedBitmap_156"},
+		{src:"images/interactive_table_html5_r03_atlas_.png", id:"interactive_table_html5_r03_atlas_"},
+		{src:"images/interactive_table_html5_r03_atlas_2.png", id:"interactive_table_html5_r03_atlas_2"},
+		{src:"images/interactive_table_html5_r03_atlas_3.png", id:"interactive_table_html5_r03_atlas_3"},
+		{src:"images/interactive_table_html5_r03_atlas_4.png", id:"interactive_table_html5_r03_atlas_4"},
+		{src:"images/interactive_table_html5_r03_atlas_5.png", id:"interactive_table_html5_r03_atlas_5"},
+		{src:"images/interactive_table_html5_r03_atlas_6.png", id:"interactive_table_html5_r03_atlas_6"},
+		{src:"images/interactive_table_html5_r03_atlas_7.png", id:"interactive_table_html5_r03_atlas_7"},
+		{src:"images/interactive_table_html5_r03_atlas_8.png", id:"interactive_table_html5_r03_atlas_8"},
+		{src:"images/interactive_table_html5_r03_atlas_9.png", id:"interactive_table_html5_r03_atlas_9"},
+		{src:"images/interactive_table_html5_r03_atlas_10.png", id:"interactive_table_html5_r03_atlas_10"},
+		{src:"images/interactive_table_html5_r03_atlas_11.png", id:"interactive_table_html5_r03_atlas_11"},
+		{src:"images/interactive_table_html5_r03_atlas_12.png", id:"interactive_table_html5_r03_atlas_12"},
+		{src:"images/interactive_table_html5_r03_atlas_13.png", id:"interactive_table_html5_r03_atlas_13"},
+		{src:"images/interactive_table_html5_r03_atlas_14.png", id:"interactive_table_html5_r03_atlas_14"},
+		{src:"images/interactive_table_html5_r03_atlas_15.png", id:"interactive_table_html5_r03_atlas_15"},
+		{src:"images/interactive_table_html5_r03_atlas_16.png", id:"interactive_table_html5_r03_atlas_16"},
+		{src:"images/interactive_table_html5_r03_atlas_17.png", id:"interactive_table_html5_r03_atlas_17"},
+		{src:"images/interactive_table_html5_r03_atlas_18.png", id:"interactive_table_html5_r03_atlas_18"},
+		{src:"images/interactive_table_html5_r03_atlas_19.png", id:"interactive_table_html5_r03_atlas_19"},
+		{src:"images/interactive_table_html5_r03_atlas_20.png", id:"interactive_table_html5_r03_atlas_20"},
+		{src:"images/interactive_table_html5_r03_atlas_21.png", id:"interactive_table_html5_r03_atlas_21"},
+		{src:"images/interactive_table_html5_r03_atlas_22.png", id:"interactive_table_html5_r03_atlas_22"},
+		{src:"images/interactive_table_html5_r03_atlas_23.png", id:"interactive_table_html5_r03_atlas_23"},
+		{src:"images/interactive_table_html5_r03_atlas_24.png", id:"interactive_table_html5_r03_atlas_24"},
+		{src:"images/interactive_table_html5_r03_atlas_25.png", id:"interactive_table_html5_r03_atlas_25"},
+		{src:"images/interactive_table_html5_r03_atlas_26.png", id:"interactive_table_html5_r03_atlas_26"},
+		{src:"images/interactive_table_html5_r03_atlas_27.png", id:"interactive_table_html5_r03_atlas_27"},
+		{src:"images/interactive_table_html5_r03_atlas_28.png", id:"interactive_table_html5_r03_atlas_28"},
+		{src:"images/interactive_table_html5_r03_atlas_29.png", id:"interactive_table_html5_r03_atlas_29"}
 	],
 	preloads: []
 };
@@ -2064,10 +2074,7 @@ function handleComplete(evt,comp) {
 	for(i=0; i<ssMetadata.length; i++) {
 		ss[ssMetadata[i].name] = new createjs.SpriteSheet( {"images": [queue.getResult(ssMetadata[i].name)], "frames": ssMetadata[i].frames} )
 	}
-	var preloaderDiv = document.getElementById("_preload_div_");
-	preloaderDiv.style.display = 'none';
-	canvas.style.display = 'block';
-	exportRoot = new lib.RECOVER_RECOVER_RECOVER_interactive_table_html5_r08();
+	exportRoot = new lib.interactive_table_html5_r10();
 	stage = new lib.Stage(canvas);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
@@ -2077,7 +2084,7 @@ function handleComplete(evt,comp) {
 		createjs.Ticker.addEventListener("tick", stage);
 	}	    
 	//Code to support hidpi screens and responsive scaling.
-	AdobeAn.makeResponsive(true,'both',false,1,[canvas,preloaderDiv,anim_container,dom_overlay_container]);	
+	AdobeAn.makeResponsive(true,'both',false,1,[canvas,anim_container,dom_overlay_container]);	
 	AdobeAn.compositionLoaded(lib.properties.id);
 	fnStartAnimation();
 }
@@ -2086,10 +2093,9 @@ function handleComplete(evt,comp) {
 </head>
 <body onload="init();" style="margin:0px;">
 	<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:1168px; height:656px">
-		<canvas id="canvas" width="1168" height="656" style="position: absolute; display: none; background-color:rgba(255, 255, 255, 1.00);"></canvas>
-		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1168px; height:656px; position: absolute; left: 0px; top: 0px; display: none;">
+		<canvas id="canvas" width="1168" height="656" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+		<div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:1168px; height:656px; position: absolute; left: 0px; top: 0px; display: block;">
 		</div>
 	</div>
-    <div id='_preload_div_' style='position:absolute; top:0; left:0; display: inline-block; height:656px; width: 1168px; text-align: center;'>	<span style='display: inline-block; height: 100%; vertical-align: middle;'></span>	<img src=images/_preloader.gif?1580759212739 style='vertical-align: middle; max-height: 100%'/></div>
 </body>
 </html>

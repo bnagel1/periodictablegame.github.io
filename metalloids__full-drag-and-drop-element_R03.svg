@@ -1,0 +1,472 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="1254px" height="705px" viewBox="0 0 1254 705">
+<defs>
+<image id="medbkgperiodictableBKG2_png" x="0" y="0" width="1168" height="656" xlink:href="./images/medbkgperiodictableBKG2_png.png"/>
+
+<image id="columnbkgfull_png" x="0" y="0" width="600" height="436" xlink:href="./images/columnbkgfull_png.png"/>
+
+<image id="columnbkgfull_metalloidspng_png" x="0" y="0" width="873" height="634" xlink:href="./images/columnbkgfull_metalloidspng_png.png"/>
+
+<image id="columnbkgfull_metalloidspng2_png" x="0" y="0" width="873" height="634" xlink:href="./images/columnbkgfull_metalloidspng2_png.png"/>
+
+<image id="helium_1_png" x="0" y="0" width="800" height="800" xlink:href="./images/helium_1_png.png"/>
+
+<image id="Boron_png" x="0" y="0" width="800" height="800" xlink:href="./images/Boron_png.png"/>
+
+<image id="Boron_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/Boron_drag_png.png"/>
+
+<image id="neon_2_png" x="0" y="0" width="800" height="800" xlink:href="./images/neon_2_png.png"/>
+
+<image id="Silicon_png" x="0" y="0" width="800" height="800" xlink:href="./images/Silicon_png.png"/>
+
+<image id="Silicon_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/Silicon_drag_png.png"/>
+
+<image id="dragger2_png" x="0" y="0" width="292" height="92" xlink:href="./images/dragger2_png.png"/>
+
+<image id="aragon_3_png" x="0" y="0" width="800" height="800" xlink:href="./images/aragon_3_png.png"/>
+
+<image id="germanium_png" x="0" y="0" width="800" height="800" xlink:href="./images/germanium_png.png"/>
+
+<image id="germanium_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/germanium_drag_png.png"/>
+
+<image id="krypton_4_png" x="0" y="0" width="800" height="800" xlink:href="./images/krypton_4_png.png"/>
+
+<image id="arsenic_png" x="0" y="0" width="800" height="800" xlink:href="./images/arsenic_png.png"/>
+
+<image id="arsenic_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/arsenic_drag_png.png"/>
+
+<image id="xenon_5_png" x="0" y="0" width="800" height="800" xlink:href="./images/xenon_5_png.png"/>
+
+<image id="antimony_png" x="0" y="0" width="800" height="800" xlink:href="./images/antimony_png.png"/>
+
+<image id="antimony_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/antimony_drag_png.png"/>
+
+<image id="radon_6_png" x="0" y="0" width="800" height="800" xlink:href="./images/radon_6_png.png"/>
+
+<image id="tellurium_png" x="0" y="0" width="800" height="800" xlink:href="./images/tellurium_png.png"/>
+
+<image id="tellurium_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/tellurium_drag_png.png"/>
+
+<image id="organesen_7_png" x="0" y="0" width="800" height="800" xlink:href="./images/organesen_7_png.png"/>
+
+<image id="polonium_png" x="0" y="0" width="800" height="800" xlink:href="./images/polonium_png.png"/>
+
+<image id="polonium_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/polonium_drag_png.png"/>
+
+<image id="hydrogen_png" x="0" y="0" width="800" height="800" xlink:href="./images/hydrogen_png.png"/>
+
+<image id="hydrogen_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/hydrogen_drag_png.png"/>
+
+<image id="chlorine_png" x="0" y="0" width="800" height="800" xlink:href="./images/chlorine_png.png"/>
+
+<image id="chlorine_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/chlorine_drag_png.png"/>
+
+<image id="nitrogen_png" x="0" y="0" width="800" height="800" xlink:href="./images/nitrogen_png.png"/>
+
+<image id="nitrogen_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/nitrogen_drag_png.png"/>
+
+<image id="oxygen_png" x="0" y="0" width="800" height="800" xlink:href="./images/oxygen_png.png"/>
+
+<image id="oxygen_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/oxygen_drag_png.png"/>
+
+<image id="radon_png" x="0" y="0" width="800" height="800" xlink:href="./images/radon_png.png"/>
+
+<image id="radium_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/radium_drag_png.png"/>
+
+<image id="sodium_png" x="0" y="0" width="800" height="800" xlink:href="./images/sodium_png.png"/>
+
+<image id="sodium_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/sodium_drag_png.png"/>
+
+<image id="francium_png" x="0" y="0" width="800" height="800" xlink:href="./images/francium_png.png"/>
+
+<image id="francium_drag_png" x="0" y="0" width="800" height="800" xlink:href="./images/francium_drag_png.png"/>
+
+<g id="targetElement1_0_Layer0_0_FILL">
+<path fill="#CCCCCC" fill-opacity="0.00784313725490196" stroke="none" d="
+M -41 -41
+L -41 41 41 41 41 -41 -41 -41 Z"/>
+</g>
+
+<g id="targetElement2_0_Layer0_0_FILL">
+<path fill="#CCCCCC" fill-opacity="0.027450980392156862" stroke="none" d="
+M -39.75 -39.75
+L -39.75 39.75 39.75 39.75 39.75 -39.75 -39.75 -39.75 Z"/>
+</g>
+
+<g id="targetElement3_0_Layer0_0_FILL">
+<path fill="#CCCCCC" fill-opacity="0.0196078431372549" stroke="none" d="
+M -39.75 -39.75
+L -39.75 39.75 39.75 39.75 39.75 -39.75 -39.75 -39.75 Z"/>
+</g>
+
+<g id="targetElement4_0_Layer0_0_FILL">
+<path fill="#CCCCCC" fill-opacity="0.0196078431372549" stroke="none" d="
+M 40.5 -39.5
+L -39.5 -39.5 -39.5 40.5 40.5 40.5 40.5 -39.5 Z"/>
+</g>
+
+<g id="targetElement5_0_Layer0_0_FILL">
+<path fill="#CCCCCC" fill-opacity="0.00784313725490196" stroke="none" d="
+M -40.25 -40.25
+L -40.25 40.25 40.25 40.25 40.25 -40.25 -40.25 -40.25 Z"/>
+</g>
+
+<g id="targetElement6_0_Layer0_0_FILL">
+<path fill="#CCCCCC" fill-opacity="0.00784313725490196" stroke="none" d="
+M -40.25 -40.25
+L -40.25 40.25 40.25 40.25 40.25 -40.25 -40.25 -40.25 Z"/>
+</g>
+
+<g id="targetElement7_0_Layer0_0_FILL">
+<path fill="#CCCCCC" fill-opacity="0.00784313725490196" stroke="none" d="
+M 40.25 -40.25
+L -40.25 -40.25 -40.25 40.25 40.25 40.25 40.25 -40.25 Z"/>
+</g>
+
+<g id="targetElement8_0_Layer0_0_FILL">
+<path fill="#FFFFFF" fill-opacity="0.00784313725490196" stroke="none" d="
+M -81 -323.45
+L -81 323.5 81 323.5 81 -323.45 -81 -323.45 Z"/>
+</g>
+
+<g id="box_0_Layer1_0_FILL">
+<path fill="#CC3300" stroke="none" d="
+M 172 132
+L 172 0 0 0 0 132 172 132 Z"/>
+</g>
+
+<g id="Symbol_1_0_Layer1_0_FILL">
+<path fill="#669933" stroke="none" d="
+M 72.25 -73.45
+Q 65.2 -80.5 55.2 -80.5
+L -142.55 -80.5
+Q -152.55 -80.5 -159.6 -73.45 -166.65 -66.4 -166.65 -56.4
+L -166.65 -49.55
+Q -166.65 -39.55 -159.6 -32.5 -152.55 -25.45 -142.55 -25.45
+L 55.2 -25.45
+Q 65.2 -25.45 72.25 -32.5 79.3 -39.55 79.3 -49.55
+L 79.3 -56.4
+Q 79.3 -66.4 72.25 -73.45 Z"/>
+</g>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 627,352.5) ">
+<g transform="matrix( 1.0736541748046875, 0, 0, 1.0746917724609375, -627,-352.5) ">
+<use xlink:href="#medbkgperiodictableBKG2_png"/>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 539.1,372) ">
+<g transform="matrix( 1.4633636474609375, 0, 0, 1.4632720947265625, -827,-322) ">
+<use xlink:href="#columnbkgfull_png"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -822,-322) ">
+<use xlink:href="#columnbkgfull_metalloidspng_png"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -822,-322) ">
+<use xlink:href="#columnbkgfull_metalloidspng2_png"/>
+</g>
+</g>
+
+<g id="targetElement1" transform="matrix( 0.975616455078125, 0, 0, 0.975616455078125, 79.25,182.8) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#targetElement1_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="targetElement2" transform="matrix( 1.00628662109375, 0, 0, 1.00628662109375, 171.7,275.75) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#targetElement2_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="targetElement3" transform="matrix( 1.00628662109375, 0, 0, 1.00628662109375, 171.7,369.35) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#targetElement3_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="targetElement4" transform="matrix( 1.012664794921875, 0, 0, 1.012664794921875, 261.65,368.55) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#targetElement4_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="targetElement5" transform="matrix( 0.9937896728515625, 0, 0, 0.9937896728515625, 261.65,460.35) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#targetElement5_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="targetElement6" transform="matrix( 0.9937896728515625, 0, 0, 0.9937896728515625, 352.6,460.35) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#targetElement6_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="targetElement7" transform="matrix( 1, 0, 0, 1, 442.35,554.35) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#targetElement7_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="targetElement8" transform="matrix( 1, 0, 0, 1, -120.95,372.45) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#targetElement8_0_Layer0_0_FILL"/>
+</g>
+</g>
+
+<g id="dragElement1" transform="matrix( 0.99951171875, 0, 0, 0.99951171875, 50.8,-114.7) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#helium_1_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#Boron_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#Boron_drag_png"/>
+</g>
+</g>
+
+<g id="dragElement2" transform="matrix( 0.9998626708984375, 0, 0, 0.9998626708984375, 142.7,-116.7) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -42,-38) ">
+<use xlink:href="#neon_2_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -42,-38) ">
+<use xlink:href="#Silicon_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -42,-38) ">
+<use xlink:href="#Silicon_drag_png"/>
+</g>
+</g>
+
+<g id="dragger03" transform="matrix( 1, 0, 0, 1, -1165.25,-139.65) ">
+<g transform="matrix( 1, 0, 0, 1, -146,-46) ">
+<use xlink:href="#dragger2_png"/>
+</g>
+</g>
+
+<g id="dragElement3" transform="matrix( 1.000152587890625, 0, 0, 1.000152587890625, 230.2,-118.7) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-36) ">
+<use xlink:href="#aragon_3_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-36) ">
+<use xlink:href="#germanium_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-36) ">
+<use xlink:href="#germanium_drag_png"/>
+</g>
+</g>
+
+<g id="dragElement4" transform="matrix( 1.000030517578125, 0, 0, 1.000030517578125, 323.35,-114.7) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#krypton_4_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#arsenic_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#arsenic_drag_png"/>
+</g>
+</g>
+
+<g id="dragElement5" transform="matrix( 0.9998931884765625, 0, 0, 0.9998931884765625, 415.5,-114.7) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#xenon_5_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#antimony_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#antimony_drag_png"/>
+</g>
+</g>
+
+<g id="dragElement6" transform="matrix( 1, 0, 0, 1, 509.6,-114.7) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#radon_6_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#tellurium_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#tellurium_drag_png"/>
+</g>
+</g>
+
+<g id="dragElement7" transform="matrix( 1.000030517578125, 0, 0, 1.000030517578125, 598.35,-114.7) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#organesen_7_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#polonium_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#polonium_drag_png"/>
+</g>
+</g>
+
+<g id="dragElement8" transform="matrix( 1, 0, 0, 1, 183,-214.3) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-41) ">
+<use xlink:href="#hydrogen_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-41) ">
+<use xlink:href="#hydrogen_drag_png"/>
+</g>
+</g>
+
+<g id="dragElement9" transform="matrix( 1, 0, 0, 1, 285.65,-226.4) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -39,-41) ">
+<use xlink:href="#chlorine_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -39,-41) ">
+<use xlink:href="#chlorine_drag_png"/>
+</g>
+</g>
+
+<g id="dragElement10" transform="matrix( 1, 0, 0, 1, 387.4,-214.3) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -39,-41) ">
+<use xlink:href="#nitrogen_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -39,-41) ">
+<use xlink:href="#nitrogen_drag_png"/>
+</g>
+</g>
+
+<g id="dragElement11" transform="matrix( 1, 0, 0, 1, 495.5,-227.2) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#oxygen_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -40,-40) ">
+<use xlink:href="#oxygen_drag_png"/>
+</g>
+</g>
+
+<g id="dragElement12" transform="matrix( 1, 0, 0, 1, 611.5,-238) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -41,-39) ">
+<use xlink:href="#radon_png"/>
+</g>
+
+<g transform="matrix( 0.0999755859375, 0, 0, 0.0999755859375, -41,-39) ">
+<use xlink:href="#radium_drag_png"/>
+</g>
+</g>
+
+<g id="dragElement13" transform="matrix( 1, 0, 0, 1, 706.2,-228.4) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -39,-39) ">
+<use xlink:href="#sodium_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -39,-39) ">
+<use xlink:href="#sodium_drag_png"/>
+</g>
+</g>
+
+<g id="dragElement14" transform="matrix( 1, 0, 0, 1, 802.85,-226.4) ">
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -41,-41) ">
+<use xlink:href="#francium_png"/>
+</g>
+
+<g transform="matrix( 0.100006103515625, 0, 0, 0.100006103515625, -41,-41) ">
+<use xlink:href="#francium_drag_png"/>
+</g>
+</g>
+
+<g id="box" transform="matrix( 2.1817626953125, 0, 0, 2.1817626953125, 1466.05,-255.3) ">
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#box_0_Layer1_0_FILL"/>
+</g>
+</g>
+
+<g id="score" transform="matrix( 1, 0, 0, 1, 930,55.35) ">
+<clipPath id="Mask_Mask_1">
+<rect x="-2" y="-2" width="67.05" height="54.15" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_1)" writing-mode="lr"><tspan x="20.55" y="39.65" baseline-shift="0%" font-family="Comic Sans MS" font-weight="bold" font-size="36" fill="#FFFFFF" xml:space="preserve">0</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 1151.45,163) ">
+<g transform="matrix( 1, 0, 0, 1, -151.95,-107.6) ">
+<clipPath id="Mask_Mask_2">
+<rect x="-2" y="-1.95" width="231.05" height="53.05" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_2)" writing-mode="lr"><tspan x="0" y="36.4" baseline-shift="0%" font-family="Comic Sans MS" font-weight="bold" font-size="33" fill="#FFFFFF" xml:space="preserve">Elements of 7</tspan></text>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 467,48) ">
+<clipPath id="Mask_Mask_3">
+<rect x="158" y="-2" width="248" height="58.05" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_3)" writing-mode="lr"><tspan x="193.9" y="39.65" baseline-shift="0%" font-family="Comic Sans MS" font-weight="bold" font-size="36" fill="#FFFFFF" xml:space="preserve">Metalloids </tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 320.25,19.1) ">
+<clipPath id="Mask_Mask_4">
+<rect x="158" y="-2" width="105.55" height="31.9" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_4)" writing-mode="lr"><tspan x="174.75" y="16.5" baseline-shift="0%" font-family="Franklin Gothic Medium" font-size="18" fill="#FFFFFF" xml:space="preserve">Group 18</tspan></text>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 252.95,119.7) ">
+<g transform="matrix( 1, 0, 0, 1, -217.85,-10.2) ">
+<clipPath id="Mask_Mask_5">
+<rect x="-15.5" y="-2" width="466.75" height="24.4" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_5)" writing-mode="lr"><tspan x="-9.75" y="16.5" baseline-shift="0%" font-family="Franklin Gothic Medium" font-size="18" fill="#FFFFFF" xml:space="preserve">Group 13      Group 14     Group15      Group 16      Group 17  </tspan></text>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 942.25,-76.1) ">
+<g transform="matrix( 1, 0, 0, 1, -232.4,-34.9) ">
+<clipPath id="Mask_Mask_6">
+<rect x="-2" y="-2" width="468.85" height="73.85" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_6)" writing-mode="lr"><tspan x="0" y="17.75" baseline-shift="0%" font-family="Articulate" font-weight="bold" font-size="19" fill="#FFFFFF" xml:space="preserve">Drag elements into the correct spaces in the table.</tspan><tspan x="0" y="41.7" baseline-shift="0%" font-family="Articulate" font-weight="bold" font-size="19" fill="#FFFFFF" xml:space="preserve">Correct placement scores a point</tspan><tspan x="0" y="65.65" baseline-shift="0%" font-family="Articulate" font-weight="bold" font-size="19" fill="#FFFFFF" xml:space="preserve">Only one attempt per element</tspan></text>
+</g>
+</g>
+
+<g id="doneDrag" transform="matrix( 0.7061920166015625, 0, 0, 0.7059173583984375, 804.15,240.55) ">
+<g transform="matrix( 1, 0, 0, 1, 812.7,7.5) ">
+<g transform="matrix( 1, 0, 0, 1, -12,0) ">
+<use xlink:href="#Symbol_1_0_Layer1_0_FILL"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, -168.6,-75) ">
+<clipPath id="Mask_Mask_7">
+<rect x="12.05" y="-2" width="210.35" height="46.7" fill="#FFFFFF" stroke="none"/>
+</clipPath>
+
+<text clip-path="url(#Mask_Mask_7)" writing-mode="lr"><tspan x="14.05" y="34.8" baseline-shift="0%" font-family="Berlin Sans FB" font-size="39" fill="#FFFFFF" xml:space="preserve">A Metalloid</tspan></text>
+</g>
+</g>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 923.85,180.8) "/>
+</svg>
